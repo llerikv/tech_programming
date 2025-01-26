@@ -8,3 +8,6 @@ def calculator():
     print("6. /")
     print("7. pow")
     print("8. cube")
+    
+    choice = input("Введите номер операции (1/2/3/4/5/6/7/8): ")
+    
