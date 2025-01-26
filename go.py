@@ -7,4 +7,4 @@ def calculator():
     print("5. sqrt")
     print("6. /")
     print("7. pow")
-    
+    print("8. cube")
