@@ -16,4 +16,6 @@ def calculator():
     
     if choice == '1':
         print(f"{x} + {y} = {x +y}")
+    elif choice == '2':
+        print(f"{x} - {y} = {x-y}")
     
