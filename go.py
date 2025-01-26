@@ -6,4 +6,5 @@ def calculator():
     print("4. %")
     print("5. sqrt")
     print("6. /")
+    print("7. pow")
     
