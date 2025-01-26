@@ -25,3 +25,9 @@ def calculator():
     elif choice == '5':
         sqrt = x ** (0.5) 
         print(f"{x} = {sqrt}")
+    elif choice == '6':
+        if y != 0:
+            print(f"{x} / {y} = {x / y}")
+        else:
+            print("Ошибка!Деление на ноль нельзя!")
+    
