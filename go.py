@@ -20,3 +20,8 @@ def calculator():
         print(f"{x} - {y} = {x - y}")
     elif choice == '3':
         print(f"{x} * {y} = {x * y}")
+    elif choice == '4':
+        print(f"{x} % {y} = {x % y}")
+    elif choice == '5':
+        sqrt = x ** (0.5) 
+        print(f"{x} = {sqrt}")
