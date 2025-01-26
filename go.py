@@ -30,4 +30,12 @@ def calculator():
             print(f"{x} / {y} = {x / y}")
         else:
             print("Ошибка!Деление на ноль нельзя!")
-    
+    elif choice == '7':
+        print(f"{x} ** {2} = {x ** 2}")
+    elif choice == '8':
+        print(f"{x} ** {3} = {x ** 3}")      
+    else:
+        print("Неверный ввод!")
+        
+if __name__ == "__main__":
+    calculator()
