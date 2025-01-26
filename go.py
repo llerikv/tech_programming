@@ -11,3 +11,9 @@ def calculator():
     
     choice = input("Введите номер операции (1/2/3/4/5/6/7/8): ")
     
+    x = float(input("Введите первое число: "))
+    y = float(input("Введите второе число: "))
+    
+    if choice == '1':
+        print(f"{x} + {y} = {x +y}")
+    
