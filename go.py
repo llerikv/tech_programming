@@ -15,7 +15,8 @@ def calculator():
     y = float(input("Введите второе число: "))
     
     if choice == '1':
-        print(f"{x} + {y} = {x +y}")
+        print(f"{x} + {y} = {x + y}")
     elif choice == '2':
-        print(f"{x} - {y} = {x-y}")
-    
+        print(f"{x} - {y} = {x - y}")
+    elif choice == '3':
+        print(f"{x} * {y} = {x * y}")
