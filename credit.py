@@ -1,4 +1,4 @@
-salary = float(input(":"))
+salary = float(input("Введите сумму вашей зарплаты:"))
 rating = float(input("Введите ваш кредитный рейтинг:"))
 
 if salary > 50000:
