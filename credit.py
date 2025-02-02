@@ -9,4 +9,5 @@ if salary > 50000:
         
 else:
     if rating > 700:
-        
+        print("Кредит одобрен,но с жесткими условиями")
+    else
