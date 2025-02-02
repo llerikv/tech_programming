@@ -8,6 +8,6 @@ if num % 2 == 0:
         
 else:
     if num % 5 == 0:
-        print("")
+        print("Число делится на 5")
     else:
         print("")
