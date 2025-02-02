@@ -9,4 +9,5 @@ if num % 2 == 0:
 else:
     if num % 5 == 0:
         print("")
-    el
+    else:
+        
