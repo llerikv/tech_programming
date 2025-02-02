@@ -2,7 +2,7 @@ num = int(input("Введите число:"))
 
 if num % 2 == 0:
     if num % 4 == 0:
-        print("")
+        print("Число делится на 4")
     else:
         print("")
         
