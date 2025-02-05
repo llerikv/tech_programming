@@ -10,28 +10,28 @@ if membership =="золото":
     if amount > 100:
         print("ваша скидка 20%")
         discount = 0.2 
-elif amount <100:
+    else:
         print("ваша скидка 10%") 
         discount=0.1
         
-if membership =="серебро":
+elif membership =="серебро":
     
     if amount > 100: 
        
        discount = 0.15 
-elif amount <100: 
+    else: 
         print("ваша скидка 5%")
         discount = 0.05
         
         
-if membership =="обычный":    
+elif membership =="обычный":    
      if amount > 100:          
         discount=0.05 
-elif amount <100:
+     else:
          print("у вас нет скидки")
          discount=0
          
        
-price =  amount *(1-discount)  
+price =  amount *(1 - discount)  
 
-print(f"Сумма после скидки:{price:.2f}") 
+print(f"Сумма после скидки: ${price:.2f}") 
