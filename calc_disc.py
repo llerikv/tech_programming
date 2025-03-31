@@ -119,11 +119,11 @@ class ScientificCalculator(BaseCalculator):
     def create_scientific_buttons(self):
         scientific_buttons = [
             ('sin', 1, 0), ('cos', 1, 1), ('tan', 1, 2), ('log', 1, 3), ('ln', 1, 4),
-            ('sqrt', 4, 4), ('^', 3, 4), ('(', 2, 4), (')', 1, 4)
+            ('sqrt', 4, 4), ('^', 3, 4), ('(', 2, 4), (')', 1, 4) ,('x', 5, 3), ('quad' ,5 , 4)
         ]
 
         for (text, row, col) in scientific_buttons:
-            action = lambda x=text: self.on_button_click(x)
+            action = lambda x=text: self.on_button_click(x) if x != "quad" else self.solve_quadratic
             button = tk.Button(self,
                                text=text,
                                font=('Arial', 14),
@@ -178,7 +178,8 @@ class ScientificCalculator(BaseCalculator):
         elif D == 0:
             return -b / (2*a)
         else:
-            sqrt
+            x1 =(-b + self.my_sqrt(D))/ (2 * a)
+            return x1
 
 #
 #
@@ -190,4 +191,4 @@ class ScientificCalculator(BaseCalculator):
 if __name__ == "__main__":
     # app = StandardCalculator()
     app = ScientificCalculator()
-    app.mainloop()
+    app.mainloop() 
